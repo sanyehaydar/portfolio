@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanye Haydar — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">YN<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">// aspiring computer scientist</p>
+      <h1>Hi, I'm <span class="highlight">Sanye Haydar</span>.</h1>
+      <p class="hero-line">
+        <span id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-sub">HSC graduate (2023) · GPA 4.475 · self-taught builder heading toward a UK Computer Science degree.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2 class="section-title"><span class="tag">01</span> About</h2>
+      <p class="about-text">
+        I finished my HSC in 2023 and have spent the time since teaching myself computer science
+        and web development through structured online coursework — because waiting for a classroom
+        felt slower than just starting. I'm now applying to study Computer Science in the UK, carrying
+        that same self-directed habit into a formal degree.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title"><span class="tag">02</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Python, JavaScript, HTML, CSS</p>
+        </div>
+        <div class="skill-card">
+          <h3>Concepts</h3>
+          <p>Programming fundamentals, algorithms, automation, version control</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Git & GitHub, VS Code, Linux command line</p>
+        </div>
+        <div class="skill-card">
+          <h3>Currently learning</h3>
+          <p>Data structures, IT automation, applied data science</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <h2 class="section-title"><span class="tag">03</span> Certificates</h2>
+      <p class="section-note">Self-paced coursework, stamped and logged like a passport.</p>
+      <div class="stamp-grid">
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>Web Design for Everybody</h3>
+          <p>Basics of Web Development &amp; Coding — Specialization</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>Google IT Automation with Python</h3>
+          <p>Professional Certificate</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>Intro to Computer Science &amp; Programming</h3>
+          <p>Specialization</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>HTML, CSS &amp; JavaScript for Web Developers</h3>
+          <p>Specialization</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>Python for Data Science, AI &amp; Development</h3>
+          <p>Course</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-ring">CERTIFIED</span>
+          <h3>Google IT Support</h3>
+          <p>Professional Certificate</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title"><span class="tag">04</span> Projects</h2>
+      <div class="project-grid">
+        <a href="../task-manager-app" class="project-card">
+          <h3>Task Manager</h3>
+          <p>A browser to-do app with categories, due dates and saved state — vanilla JS, no frameworks.</p>
+          <span class="project-tags">HTML · CSS · JavaScript</span>
+        </a>
+        <a href="../expense-tracker-cli" class="project-card">
+          <h3>Expense Tracker CLI</h3>
+          <p>A command-line tool that logs, categorizes and summarizes personal spending from a CSV file.</p>
+          <span class="project-tags">Python</span>
+        </a>
+        <a href="../weather-dashboard-cli" class="project-card">
+          <h3>Weather Dashboard</h3>
+          <p>Fetches live weather for any city from a public API and prints a clean forecast summary.</p>
+          <span class="project-tags">Python · REST API</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title"><span class="tag">05</span> Contact</h2>
+      <div class="contact-box">
+        <p>I'm always glad to talk about code, coursework, or the UK application process.</p>
+        <div class="contact-links">
+          <a href="mailto:sanyehaydar@gmail.com">sanyehaydar@gmail.com</a>
+          <a href="https://github.com/sanyehaydar" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/sanyehaydar" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built by Sanye Haydar · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
