@@ -1,11 +1,11 @@
 # Personal Portfolio Website
 
-A single-page personal portfolio built with plain HTML, CSS and JavaScript — no frameworks, no build tools. It's designed to showcase education, skills, certificates and small projects, which makes it a natural home page to link from a CV, LinkedIn, or a university application.
+A single-page personal portfolio built with plain HTML, CSS and JavaScript — no frameworks, no build tools. It's designed to showcase education, skills, certificates  which makes it a natural home page to link from a CV, or LinkedIn.
 
 ## What it does
 
 - **Hero section** with an animated, typewriter-style tagline (pure JavaScript, `setTimeout`-based loop — no libraries).
-- **About / Skills / Certificates / Projects / Contact** sections, each reachable from a sticky navigation bar with smooth scrolling.
+- **About / Skills / Certificates / Contact** sections, each reachable from a sticky navigation bar with smooth scrolling.
 - **Certificates** are shown as "passport stamp" cards — a small design idea that fits the story of an international applicant.
 - Fully **responsive**: the layout re-flows on mobile using CSS Grid's `auto-fit`/`minmax`.
 - Respects `prefers-reduced-motion` for users who disable animations.
